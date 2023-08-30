@@ -1,3 +1,5 @@
+import styles from "./styles.module.scss";
+
 export default function Home() {
-  return <div>Hello Airbnb</div>;
+  return <div className={styles.main}>Hello Airbnb</div>;
 }
