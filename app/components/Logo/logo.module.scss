@@ -1,0 +1,6 @@
+.logo {
+  cursor: pointer;
+  @media (max-width: --mantine-breakpoint-sm) {
+    display: hidden;
+  }
+}

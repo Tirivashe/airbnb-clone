@@ -1,0 +1,24 @@
+.root {
+  button{
+    background: white;
+    color: black;
+    font-size: small;
+    transition: .2s ease-in-out all;
+    border-radius: 25px;
+
+    &:hover {
+      box-shadow: 2px 3px 10px var(--mantine-color-gray-4);
+      background-color: var(--mantine-color-gray-1);
+    }
+  }
+
+  & div:nth-child(2) {
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .2s ease-in-out all;
+    &:hover {
+        box-shadow: 2px 3px 10px var(--mantine-color-gray-4);
+        background-color: var(--mantine-color-gray-1);
+      }
+  }
+}
