@@ -9,9 +9,8 @@ const Navbar = () => {
       w={"100%"}
       h={"100%"}
       preventGrowOverflow
-      gap={5}
-      px="md"
       justify="space-between"
+      px="3rem"
     >
       <Center visibleFrom="md">
         <Logo />

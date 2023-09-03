@@ -2,14 +2,17 @@
 
 import { AppShell } from "@mantine/core";
 import Navbar from "./components/Navbar";
+import RegisterModal from "./components/Modal/RegisterModal";
 
 export default function Home() {
   return (
-    <AppShell header={{ height: 60 }} padding="md">
+    <AppShell header={{ height: 80 }} padding="md">
       <AppShell.Header>
         <Navbar />
       </AppShell.Header>
-      <AppShell.Main>Main</AppShell.Main>
+      <AppShell.Main>
+        <RegisterModal />
+      </AppShell.Main>
     </AppShell>
   );
 }

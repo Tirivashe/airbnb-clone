@@ -1,0 +1,12 @@
+.title {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  padding-right: 1.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 1px solid var(--mantine-color-gray-2);
+}

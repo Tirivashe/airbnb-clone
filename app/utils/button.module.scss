@@ -1,0 +1,13 @@
+.root {
+  &[data-variant='outline'] {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  &[data-variant='primary'] {
+    background: var(--mantine-color-red-6);
+    color: var(--mantine-color-white);
+    border: none;
+  }
+}
